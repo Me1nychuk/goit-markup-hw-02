@@ -37,7 +37,7 @@ ul li {
   gap: 40px; */
 }
 
-.nav-list-item,
+.nav-list-item a,
 .nav-list-item a:visited {
   color: #2e2f42;
   font-family: Roboto;
