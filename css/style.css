@@ -39,7 +39,6 @@ ul li {
 .nav-list-item,
 .nav-list-item:visited {
   color: var(--navyblue);
-  font-family: Roboto;
   font-size: 16px;
   font-style: normal;
   font-weight: 500;
@@ -58,7 +57,6 @@ ul li {
 }
 
 .adress-item .adress-link {
-  font-family: Roboto;
   font-size: 16px;
   font-weight: 400;
   line-height: 24px; /* 150% */
@@ -82,22 +80,26 @@ ul li {
 .section-01 .main-title {
   color: #fff;
   text-align: center;
-  font-family: Roboto;
   font-size: 56px;
   font-style: normal;
   font-weight: 700;
   line-height: 60px; /* 107.143% */
   letter-spacing: 1.12px;
+  line-height: 1.07;
 }
 .section-01 .btn-order {
-  background: var(--iris);
+  background-color: var(--iris);
   color: var(--white, #fff);
-  font-family: Roboto;
   font-size: 16px;
   font-style: normal;
   font-weight: 500;
   line-height: 24px; /* 150% */
   letter-spacing: 0.64px;
+  cursor: pointer;
+}
+.section-01 .btn-order:hover,
+.section-01 .btn-order:focus {
+  background-color: #404bbf;
 }
 
 /* section_02  */
@@ -108,7 +110,6 @@ ul li {
 .section-02-title {
 }
 .section-02-list-item {
-  font-family: Roboto;
   font-style: normal;
   line-height: 24px;
 }
