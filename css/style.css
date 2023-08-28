@@ -31,7 +31,8 @@ body {
   align-items: flex-start;
   gap: 40px;
 }
-.nav-list > li {
+
+.nav-list-item a {
   color: #2e2f42;
 
   /* Body Medium */
@@ -42,14 +43,16 @@ body {
   line-height: 24px; /* 150% */
   letter-spacing: 0.32px;
 }
-.nav-list > li:hover {
-  color: #404bbf;
-}
-.nav-list > li:active {
+
+.nav-list-item a:hover {
   color: #404bbf;
 }
 
-.adress-list > li {
+.nav-list-item a:active {
+  color: #404bbf;
+}
+
+.adress-list-item a {
   color: #434455;
 
   /* Body */
@@ -60,6 +63,7 @@ body {
   line-height: 24px; /* 150% */
   letter-spacing: 0.32px;
 }
+
 /* section_01  */
 /* section_02  */
 /* section_03  */
