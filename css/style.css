@@ -30,9 +30,6 @@ ul li {
   color: #2e2f42;
 }
 
-.nav-list {
-}
-
 .nav-list-item,
 .nav-list-item:visited {
   color: #2e2f42;
@@ -65,9 +62,9 @@ ul li {
   color: #434455;
 }
 
-.adress-list-item .adress-link:hover,
-.adress-list-item .adress-link:active,
-.adress-list-item .adress-link:focus {
+.adress-item .adress-link:hover,
+.adress-item .adress-link:active,
+.adress-item .adress-link:focus {
   color: #404bbf;
 }
 
