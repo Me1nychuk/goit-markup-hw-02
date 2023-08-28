@@ -1,7 +1,13 @@
+:root {
+  --navyblue: #2e2f42;
+  --iris: #4d5ae5;
+  --slate: #434455;
+  --iris_2: #404bbf;
+}
 body {
   font-family: "Roboto", sans-serif;
   background: #fff;
-  color: #434455;
+  color: var(--slate);
 }
 a {
   text-decoration: none;
@@ -17,7 +23,7 @@ ul li {
 
 .logo {
   font-family: "Raleway", sans-serif;
-  color: #4d5ae5;
+  color: var(--iris);
   font-size: 18px;
   font-style: normal;
   font-weight: 700;
@@ -27,12 +33,12 @@ ul li {
   line-height: 1.17;
 }
 .logo-second {
-  color: #2e2f42;
+  color: var(--navyblue);
 }
 
 .nav-list-item,
 .nav-list-item:visited {
-  color: #2e2f42;
+  color: var(--navyblue);
   font-family: Roboto;
   font-size: 16px;
   font-style: normal;
@@ -44,7 +50,7 @@ ul li {
 .nav-list-item:hover,
 .nav-list-item:active,
 .nav-list-item:focus {
-  color: #404bbf;
+  color: var(--iris_2);
 }
 
 .adress {
@@ -59,17 +65,66 @@ ul li {
   letter-spacing: 0.32px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #434455;
+  color: var(--slate);
 }
 
 .adress-item .adress-link:hover,
 .adress-item .adress-link:active,
 .adress-item .adress-link:focus {
-  color: #404bbf;
+  color: var(--iris_2);
 }
 
 /* section_01  */
+
+.section-01 {
+  background: var(--navyblue);
+}
+.section-01 .main-title {
+  color: #fff;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 56px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 60px; /* 107.143% */
+  letter-spacing: 1.12px;
+}
+.section-01 .btn-order {
+  background: var(--iris);
+  color: var(--white, #fff);
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px; /* 150% */
+  letter-spacing: 0.64px;
+}
+
 /* section_02  */
+
+.section-02 {
+  background: #fff;
+}
+.section-02-title {
+}
+.section-02-list-item {
+  font-family: Roboto;
+  font-style: normal;
+  line-height: 24px;
+}
+.section-02-list-item .section-02-list-title {
+  color: var(--navyblue);
+  font-size: 20px;
+  font-weight: 500;
+  letter-spacing: 0.4px;
+}
+.section-02-list-item .section-02-list-text {
+  color: var(--slate);
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: 0.32px;
+}
+
 /* section_03  */
 /* section_04  */
 /* footer */
