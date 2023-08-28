@@ -107,15 +107,12 @@ ul li {
 .section-02 {
   background: #fff;
 }
-.section-02-title {
-}
+
 .section-02-list-item {
   font-style: normal;
   line-height: 24px;
 }
-.section-02-list-item .section-02-list-title,
-.section-03-list .section-03-list-item .section-03-list-name,
-.section-04-list .section-04-list-item .section-04-list-name {
+.section-h3 {
   color: var(--navyblue);
   font-size: 20px;
   font-weight: 500;
@@ -135,8 +132,8 @@ ul li {
   background: #f4f4fd;
   text-align: center;
 }
-.section-03-title,
-.section-04-title {
+
+.section-title {
   color: var(--navyblue);
   font-size: 36px;
   font-weight: 700;
