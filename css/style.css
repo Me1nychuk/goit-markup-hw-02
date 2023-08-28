@@ -49,8 +49,13 @@ a {
   color: #404bbf;
 }
 
-.nav-list-item a:active {
+.nav-list-item a:active,
+.nav-list-item a:focus {
   color: #404bbf;
+}
+
+.adress {
+  font-style: normal;
 }
 
 .adress-list-item a {
@@ -63,6 +68,14 @@ a {
   font-weight: 400;
   line-height: 24px; /* 150% */
   letter-spacing: 0.32px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+.adress-list-item a:hover,
+.adress-list-item a:active,
+.adress-list-item a:focus {
+  color: #404bbf;
 }
 
 /* section_01  */
