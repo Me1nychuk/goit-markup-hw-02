@@ -3,17 +3,18 @@ body {
   background: #fff;
   color: #434455;
 }
-
+a {
+  text-decoration: none;
+}
 /* header */
 .header {
   border-bottom: 1px solid #e7e9fc;
   background: #fff;
 }
+
 .logo {
   font-family: "Raleway", sans-serif;
   color: #4d5ae5;
-
-  font-family: Raleway;
   font-size: 18px;
   font-style: normal;
   font-weight: 700;
@@ -27,9 +28,9 @@ body {
 }
 
 .nav-list {
-  display: inline-flex;
+  /* display: inline-flex;
   align-items: flex-start;
-  gap: 40px;
+  gap: 40px; */
 }
 
 .nav-list-item a {
