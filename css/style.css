@@ -138,6 +138,7 @@ ul li {
   line-height: 40px; /* 111.111% */
   letter-spacing: 0.72px;
   text-transform: capitalize;
+  line-height: 1.11;
 }
 .section-03-list .section-03-list-item,
 .section-04-list .section-04-list-item {
@@ -162,13 +163,15 @@ ul li {
 }
 
 /* section_04  */
-
+.section-03-title {
+  line-height: 1.11;
+}
 /* footer */
 .footer {
   background: var(--navyblue);
 }
 .logo-second-2 {
-  color: #fff;
+  color: #f4f4fd;
 }
 .footer-text {
   color: #f4f4fd;
