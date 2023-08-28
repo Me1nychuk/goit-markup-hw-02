@@ -6,12 +6,12 @@ body {
 
 /* header */
 .header {
-  border-bottom: 1px solid var(--cornflower, #e7e9fc);
-  background: var(--white, #fff);
+  border-bottom: 1px solid #e7e9fc;
+  background: #fff;
 }
 .logo {
   font-family: "Raleway", sans-serif;
-  color: var(--iris, #4d5ae5);
+  color: #4d5ae5;
 
   font-family: Raleway;
   font-size: 18px;
@@ -23,7 +23,7 @@ body {
   line-height: 1.17;
 }
 .logo-second {
-  color: var(--navyblue, #2e2f42);
+  color: #2e2f42;
 }
 
 .nav-list {
@@ -32,7 +32,7 @@ body {
   gap: 40px;
 }
 .nav-list > li {
-  color: var(--navyblue, #2e2f42);
+  color: #2e2f42;
 
   /* Body Medium */
   font-family: Roboto;
@@ -42,8 +42,15 @@ body {
   line-height: 24px; /* 150% */
   letter-spacing: 0.32px;
 }
+.nav-list > li:hover {
+  color: #404bbf;
+}
+.nav-list > li:active {
+  color: #404bbf;
+}
+
 .adress-list > li {
-  color: var(--slate, #434455);
+  color: #434455;
 
   /* Body */
   font-family: Roboto;
