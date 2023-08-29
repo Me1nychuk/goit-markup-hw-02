@@ -117,12 +117,14 @@ ul li {
   font-size: 20px;
   font-weight: 500;
   letter-spacing: 0.4px;
+  line-height: 1.2;
 }
 .section-list-text {
   color: var(--slate);
   font-size: 16px;
   font-weight: 400;
   letter-spacing: 0.32px;
+  line-height: 1.5;
 }
 
 /* section_03  */
@@ -150,7 +152,7 @@ ul li {
 .footer {
   background: var(--navyblue);
 }
-.logo-second-2 {
+.logo-second-two {
   color: #f4f4fd;
 }
 .footer-text {
