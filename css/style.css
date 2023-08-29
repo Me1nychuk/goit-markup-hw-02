@@ -74,10 +74,10 @@ ul li {
 
 /* section_01  */
 
-.section-01 {
+.section-first {
   background: var(--navyblue);
 }
-.section-01 .main-title {
+.section-first .main-title {
   color: #fff;
   text-align: center;
   font-size: 56px;
@@ -87,7 +87,7 @@ ul li {
   letter-spacing: 1.12px;
   line-height: 1.07;
 }
-.section-01 .btn-order {
+.section-first .btn-order {
   background-color: var(--iris);
   color: var(--white, #fff);
   font-size: 16px;
@@ -97,18 +97,18 @@ ul li {
   letter-spacing: 0.64px;
   cursor: pointer;
 }
-.section-01 .btn-order:hover,
-.section-01 .btn-order:focus {
+.section-first .btn-order:hover,
+.section-first .btn-order:focus {
   background-color: #404bbf;
 }
 
 /* section_02  */
 
-.section-02 {
+.section-second {
   background: #fff;
 }
 
-.section-02-list-item {
+.section-second-list-item {
   font-style: normal;
   line-height: 24px;
 }
@@ -118,9 +118,7 @@ ul li {
   font-weight: 500;
   letter-spacing: 0.4px;
 }
-.section-02-list-item .section-02-list-text,
-.section-03-list .section-03-list-item .section-03-list-text,
-.section-04-list .section-04-list-item .section-04-list-text {
+.section-list-text {
   color: var(--slate);
   font-size: 16px;
   font-weight: 400;
@@ -128,7 +126,7 @@ ul li {
 }
 
 /* section_03  */
-.section-03 {
+.section-third {
   background: #f4f4fd;
   text-align: center;
 }
@@ -142,8 +140,7 @@ ul li {
   text-transform: capitalize;
   line-height: 1.11;
 }
-.section-03-list .section-03-list-item,
-.section-04-list .section-04-list-item {
+.list-item {
   background: #fff;
 }
 
